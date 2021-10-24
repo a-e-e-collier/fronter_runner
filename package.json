@@ -1,0 +1,36 @@
+{
+  "name": "add-liquidity-bot",
+  "version": "0.1.0",
+  "description": "Add Liquidity - Trading Bot!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3-beta.1",
+    "assert": "^2.0.0",
+    "axios": "^0.19.2",
+    "bootstrap": "4.3.1",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.5.6",
+    "ethereumjs-tx": "1.3.7",
+    "ethers": "^5.0.8",
+    "express": "^4.15.2",
+    "infura-web3-provider": "0.0.3",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.28",
+    "numeral": "^2.0.6",
+    "react": "16.8.4",
+    "react-bootstrap": "1.0.0-beta.5",
+    "react-dom": "16.8.4",
+    "react-scripts": "2.1.3",
+    "truffle": "5.0.5",
+    "web3": "1.2.1"
+  },
+  "devDependencies": {
+    "request": "^2.81.0"
+  }
+}

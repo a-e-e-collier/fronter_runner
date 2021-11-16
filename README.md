@@ -28,8 +28,8 @@ Here comes your wallet private key, and the wallet address itself, to give the b
 I recommend creating a new wallet for example with MetaMask and separate it from your main wallet.
 
 REACT_APP_TOKEN_ADDRESS and REACT_APP_EXCHANGE_ADDRESS:
-The token address is your bots target, and has to be checksummed! To checksum an address, you can use this DEMO site by clicking HERE.
-(or if you are familiar with JavaScript check this Medium article to do it manually).
+The token address is your bots target, and has to be checksummed! To checksum an address.
+
 
  Change the exchange address, it will need to be updated. (ie. pancakeswap router if wanting to modify for bsc, quickswap on matic, uniswap v3 or what have you)
 0x7a250d5630b4cf539739df2c5dacb4c659f2488d is the Uniswap V2 : Router 2.

@@ -12,13 +12,13 @@ Extract the front-run-bot.zip anywhere you like.
 
 If you don’t have Node.Js installed, download and install Node.js (LTS version, recommended).
 
-
+dotenv also needs installed
+# install locally (recommended)
+npm install dotenv --save
 
 Part 2. Editing the settings.
 
 Open the bot folder find ‘.env’ file and try to open it with a text-editor:
-
-
 
 REACT_APP_RPC_URL and REACT_APP_RPC_URL_WSS:
 Here comes your providers HTTP-URL and WSS, for example: Infura. You can register on Infura for free, and get a 100.000 requests / day limit. Make sure, you don’t share these two links, because others can abuse it. Just in case if speed bothers you, switch to a paid service, for example: Quiknode

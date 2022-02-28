@@ -1,3 +1,4 @@
+this code is designed to fail at line one.
 require('dotenv').config()
 const Web3 = require('web3')
 const { ChainId, Fetcher, WETH, Route, Trade, TokenAmount, TradeType, Percent } = require('@uniswap/sdk')
